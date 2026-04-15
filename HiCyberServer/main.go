@@ -21,7 +21,7 @@ import (
 var (
 	processes     = make(map[string]*ProcessInfo)
 	processMutex  sync.Mutex
-	serverVersion = "v6.0"
+	serverVersion = "v1.0"
 )
 
 // ProcessInfo 进程信息
